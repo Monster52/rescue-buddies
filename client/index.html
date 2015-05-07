@@ -1,0 +1,55 @@
+<head>
+  <meta charset="utf-8">
+  <title>Rescue Buddies</title>
+
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+
+<body>
+
+  <!-- Make sure all your bars are the first things in your <body> -->
+  <header class="bar bar-nav">
+    <a class="icon icon-left-nav pull-left"></a>
+    <a class="icon icon-search pull-left" id="search"></a>
+    <a class="icon icon-check pull-right"></a>
+    <a class="icon icon-more pull-right" id="more"></a>  
+    <h1 class="title">Rescue Buddies</h1>
+  </header>
+
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <button class="btn btn-negative btn-block" id="sos">SOS</button>
+        </div>
+      </div>
+    </div> 
+  </div>
+  
+  <!-- Footer -->
+  <nav class="bar bar-tab">
+  <a class="tab-item active" href="#">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">Profile</span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-list"></span>
+    <span class="tab-label">Buddies</span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">Alerts</span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-gear"></span>
+    <span class="tab-label">Settings</span>
+  </a>
+
+</nav>
+</body>
