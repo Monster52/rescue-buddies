@@ -28,6 +28,11 @@
 	height: 200px;
 	margin: 30px auto;
 	border-radius: 50%;
-	border: 2px solid #800000;
+	border: 2px solid #000;
+	background-color: #800000;
 	font-size: 4em;
+}
+
+.red {
+	background-color: blue;
 }
