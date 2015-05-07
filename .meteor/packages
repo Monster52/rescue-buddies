@@ -8,3 +8,4 @@ meteor-platform
 autopublish
 insecure
 pcjpcj2:ratchet
+iron:router
